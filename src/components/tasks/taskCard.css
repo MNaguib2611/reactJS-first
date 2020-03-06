@@ -1,0 +1,8 @@
+.taskCard{
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px blueviolet;
+}
+
+.lineThrough{
+    text-decoration: line-through;
+}

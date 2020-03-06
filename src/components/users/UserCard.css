@@ -1,0 +1,96 @@
+.nav-bar{
+    width: 100%;
+    height: 35px;
+    background-color: rgb(60,110,110);
+    position: fixed;
+    top: 0px;
+    right:0px;
+    padding: 30px 30px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.rightContainer{
+    /* flex-grow: 9; */
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column ;
+    background-color: bisque;
+    /* overflow-y: scroll; */
+    overflow: hidden;
+    height: 100%;
+
+}
+.containerFlex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row ;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.burger-bars{
+    font-size:30px;
+    color:white;
+}
+.logout{
+    color: aliceblue;
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    font-weight: bolder;
+}
+
+.side-bar{
+    width: 20%;
+    background-color: rgb(5,170,170);
+    color: antiquewhite;
+    position: absolute;
+    top: 0px;
+    left:0px;
+    height: 100vh ;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+
+.side-bar h1{
+    overflow: hidden;
+}
+
+.menu-img:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+.side-bar{
+    width: 20%;
+    background-color: rgb(5,170,170);
+    color: antiquewhite;
+    position: absolute;
+    top: 0px;
+    left:0px;
+    height: 100vh ;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+
+
+.item{
+    border-radius: 50px 0px 0px 50px;
+    background-color: rgb(4, 32, 32);
+    margin-left: 40px;
+    margin-bottom: 5px;
+    padding: 10px 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    size: 16px;
+    color: whitesmoke;
+}
